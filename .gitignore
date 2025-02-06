@@ -1,0 +1,32 @@
+# Ignore environment variables and credentials
+src/.env
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore Terraform state files
+terraform/.terraform/
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/.terraform.lock.hcl
+terraform/errored.tfstate
+
+# Ignore Docker-related files
+*.dockerignore
+
+
+# Ignore log files
+*.log
+
+# Ignore AWS credentials and sensitive files
+*.pem
+*.key
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+*.swp
+
+# Ignore generated JSON and lock files
+task-definition.json
