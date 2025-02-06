@@ -66,7 +66,7 @@ Ensure you have the following installed before proceeding:
 ### 1️⃣ Clone the Repository
 
 ```sh
-git clone https://github.com/your-repository/NCAAGameHighlights.git
+git clone https://github.com/richardolat/NCAAGameHighlights.git
 cd NCAAGameHighlights
 ```
 
@@ -94,7 +94,7 @@ AWS_ACCESS_KEY_ID=your_aws_access_key_id
 AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key
 S3_BUCKET_NAME=your_s3_bucket_name
 MEDIACONVERT_ENDPOINT=https://your_mediaconvert_endpoint.amazonaws.com
-AWS_ACCOUNT_ID=720593956128
+AWS_ACCOUNT_ID="Your_Aws_Account_ID"
 ```
 
 ---
@@ -201,3 +201,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🤝 Contributing
 
 Feel free to contribute! Fork the repo, make your changes, and submit a pull request.
+N.B : This project is the day 6 of the 30 days of Devops Challenge.
